@@ -1,5 +1,5 @@
 function getAkanName() {
-    let varYear = document.getElementById("varYear").value;
+    let varYear = document.getElementById("varYear").
     let varMonth = Number(document.getElementById("varMonth").value);
     let varDate = Number(document.getElementById("varDate").value);
     let genders = document.getElementsByName("gender");
