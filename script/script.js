@@ -5,7 +5,7 @@ function getAkanName() {
     let genders = document.getElementsByName("gender");
 
     // function to get gender
-    function getGender() {
+     function getGender() {
         for (let gender of genders) {
             if (gender.checked) {
                 return gender.value;
