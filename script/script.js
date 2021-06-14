@@ -43,11 +43,11 @@ function getAkanName() {
             if (varDate >= 1 && varDate <= 28) {
                 return true;
             } else {
-                return false
+                return false;
             }
         }
         //30 days
-        else if (varMonth === 4 || varMonth === 6 || varMonth === 9 || varMonth === 11) {
+        else if (varMonth === 4 || varMonth === 6 || varMonth === 9 || varMonth === 11) 
             if (varDate >= 1 && varDate <= 30) {
                 return true
             } else {
