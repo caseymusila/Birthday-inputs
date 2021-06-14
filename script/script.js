@@ -74,7 +74,7 @@ function getAkanName() {
     let dayValid = valDay();
 
     //Formula to determine day of birth given all input variables
-     dayNumber = Math.floor((((Number(varYear.slice(0, 2)) / 4) - 2 * Number(varYear.slice(0, 2)) - 1) +
+    let dayNumber = Math.floor((((Number(varYear.slice(0, 2)) / 4) - 2 * Number(varYear.slice(0, 2)) - 1) +
         ((5 * Number(varYear.slice(2, 4)) / 4)) + ((26 * (varMonth + 1) / 10)) + varDate) % 7);
 
     //arrays for days of the week
@@ -82,7 +82,7 @@ function getAkanName() {
         "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
     ];
     //arrays for akan names for the males
-    let akanMale = [
+    akanMale = [
         "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"
     ];
     //arrays for akan names for the females
