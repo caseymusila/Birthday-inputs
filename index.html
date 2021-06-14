@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghanaian names</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <link href="script/script.js" rel="stylesheet" type="text/js" media="all">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+        <h1>Ghanaian Culture Names</h1>
+        <p>Did you know that ghanaians names are derived depending on the day they were born.</p>
+        <p>Click <a href="#input-form.html">Here</a> to see your Ghanaian name.</p>
+
+    </div>
+
+
+</div>
+
+<div class="form3" id="form">
+    <form onsubmit="return getAkanName()">
+        <label class="formlabel">Date of Birth</label><br><br>
+        <input id="varMonth" name="userMonth" type="number" class="month" minlength="1" maxlength="2" required placeholder="Month(MM)"><br><br>
+        <input id="varDate" name="userDate" type="number" class="date" minlength="1" maxlength="2" required placeholder="Day(DD)"><br><br>
+        <input id="varYear" name="userYear" type="number" class="year" minlength="4" maxlength="4" required placeholder="Year(YYYY)"><br><br>
+
+        <label class="formlabel2">Gender</label><br><br>
+        <b style="padding-right: 10px">Male</b>
+        <input id="varMale" type="radio" name="gender" value="male" required>&nbsp;&nbsp;&nbsp;
+        <b style="padding-right: 10px"> Female</b>
+        <input id="varFemale" type="radio" name="gender" value="female" required>
+        </label><br><br>
+
+        <input id="get-name" class="btn2" type="submit" value="Submit">
+
+    </form>
+
+    <p id="result"></p>
+
+</div>
+
+`
+    
+</body>
+</html>
