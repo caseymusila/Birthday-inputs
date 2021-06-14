@@ -31,12 +31,12 @@
       
 }
 #varMonth{
-        width: auto
+        width: auto;
         margin: auto;
         font-size: xx-large;
 }
 #varDate{
-        width: auto 
+        width: auto;
         margin: auto;
         font-size: xx-large;
 }
