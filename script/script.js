@@ -82,7 +82,7 @@ function getAkanName() {
         "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
     ];
     //arrays for akan names for the males
-    akanMale = [
+    let akanMale = [
         "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"
     ];
     //arrays for akan names for the females
