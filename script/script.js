@@ -74,7 +74,7 @@ function getAkanName() {
     let dayValid = valDay();
 
     //Formula to determine day of birth given all input variables
-    let dayNumber = Math.floor((((Number(varYear.slice(0, 2)) / 4) - 2 * Number(varYear.slice(0, 2)) - 1) +
+     dayNumber = Math.floor((((Number(varYear.slice(0, 2)) / 4) - 2 * Number(varYear.slice(0, 2)) - 1) +
         ((5 * Number(varYear.slice(2, 4)) / 4)) + ((26 * (varMonth + 1) / 10)) + varDate) % 7);
 
     //arrays for days of the week
