@@ -31,7 +31,7 @@ function getAkanName() {
     //validation function for days of the month.
     function valDay() {
         //leap year
-        if (varMonth === 2 && Number(varYear % 4 === 0)) 
+        if (varMonth === 2 && Number(varYear % 4 === 0)) {
             if (varDate >= 1 && varDate <= 29) {
                 return true;
             } else {
@@ -43,7 +43,7 @@ function getAkanName() {
             if (varDate >= 1 && varDate <= 28) {
                 return true;
             } else {
-                return false;
+                return false
             }
         }
         //30 days
